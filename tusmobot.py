@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 class letter:
 	def __init__(self, char, colour, relativePosition):
 		self.char = char
-		if colour == "cell-content bg-sky-600":
+		if colour == "cell-content bg-blue-primary":
 			self.colour = "blue"
 		elif colour in ["cell-content","cell-content -"]:
 			self.colour = "white"
